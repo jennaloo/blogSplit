@@ -1,4 +1,9 @@
-.strikethrough {
-    text-decoration: line-through;
-    color: grey;
+p {
+    padding: 0 40px;
+}
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
 }

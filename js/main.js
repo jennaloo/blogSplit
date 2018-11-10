@@ -1,6 +1,6 @@
 function publish() {
     var article = document.getElementsByTagName('textarea')[0].value;
-    document.body.innerHTML += "<p>" + article.split("\n").join("<p><hr></p>") + "</p>";
+    document.body.innerHTML += "<p>" + article.split("\n").join("</p><hr><p>") + "</p>";
 }
 
 //Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis culpa dolorum quos atque tenetur reiciendis, dolore ducimus odio dolores sint maiores quis, voluptas veniam accusantium deleniti sit quasi ad? Obcaecati et facere enim, repudiandae vel, unde rerum odit quod nihil ab veritatis, iste maxime inventore sit. Beatae rerum doloribus minus, voluptates, tempora consectetur corporis architecto deleniti, pariatur accusamus harum quas! Tenetur ipsam in impedit cumque error eos recusandae aliquid esse soluta quisquam repellendus tempore atque nostrum, laborum minus corrupti voluptatum veritatis rerum ipsum nisi sequi molestias numquam sit. Ab totam quidem dolore in beatae ducimus perferendis, ea eveniet? Vero mollitia sint vitae maxime assumenda, eum doloremque porro sapiente magni, et qui, velit, id cum itaque facilis recusandae eveniet. Repudiandae 
